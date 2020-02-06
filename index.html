@@ -113,7 +113,7 @@
 			</div>
 		</div>
 		<script>
-			if(!/tr/i.test(window.navigator.userLanguage || window.navigator.language)) {
+			if(/tr/i.test(window.navigator.userLanguage || window.navigator.language)) {
 				var $=function(a){return document.getElementsByTagName(a)[0]||{}};
 				$("h1").innerHTML = "erdinç akan";
 				$("h2").innerHTML = "Danışman, Full Stack Developer";
